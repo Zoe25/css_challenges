@@ -1,0 +1,71 @@
+section , aside{
+  font-size: 14px;
+  font-family: serif;
+}
+ h2 {
+   font-size: 150%;
+   font-family: sans-serif;
+   letter-spacing: 2px;
+ }
+
+ p , ol , ul{
+   line-height: 1.6;
+   list-style-type: circle;
+ }
+
+h1{
+  border: 9px solid #009bff;
+  padding: 2%;
+  margin: 40px;
+  font-size: 95px;
+  color:#2d064b ;
+}
+
+body{
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  background-color:#98a8db;
+  border: 5px double black;
+  margin:20px;
+  padding: 18px;
+}
+
+.p1 , .p3{
+  text-indent: 20px;
+}
+
+.nv{
+  border-: 3px black;
+  border-style: groove ;
+}
+
+a:hover{
+  color: red;
+  text-decoration: none;
+}
+
+a{
+  color: #818181;
+  font-style: oblique;
+}
+
+h2{
+  color: blue;
+}
+
+a:visited{
+  color: yellow;
+}
+
+a:focus{
+  background-color: #333;
+  width: 30px;
+  outline: 8px;
+}
+
+.ext{
+content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+margin: 0 0 0 5px;
+}
+
+/*ch 2*/

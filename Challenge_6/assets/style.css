@@ -1,0 +1,79 @@
+body{
+  border: 5px solid black;
+  border-radius: 2px;
+  background-color: #a790ec;
+}
+
+/*this is a type selector  */
+h1{
+  text-align:center;
+  color: #444550 ;
+  background-color: violet;
+}
+
+/*this is a class selector  */
+.parag{
+  color: red;
+  text-align: center;
+}
+
+/*not active  */
+a:link{
+  color: green;
+}
+
+a:visited{
+  color:#8ce8db;
+}
+
+/*mouse over link  */
+a:hover{
+  background-color: black;
+  color: yellow;
+}
+
+/* clicking on link  */
+a:active{
+  color: hotpink;
+  text-align: center;
+}
+
+label{
+  color: #fcfcfc;
+  text-align: center;
+}
+/*styling the placeholder*/
+ ::placeholder{
+   color: blue;
+   font-style: italic;
+ }
+
+/* stying the button using css */
+button{
+  display: block;
+  border-radius: 5px;
+  padding: 10px;
+  background: #32ff58;
+  border-color: #32ff58;
+  margin:0 auto;
+}
+
+/*styling the empty box using a class selector*/
+.item1:hover{
+  background-color: blue;
+  width: 10px;
+  height: 10px;
+}
+
+/*styling the footer,using "position:sticky" */
+.footer{
+  display:block;
+  position: sticky;
+  font-size: 15px;
+  font-style: italic;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  background-color: violet;
+  text-align: center;
+}

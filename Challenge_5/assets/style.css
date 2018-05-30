@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+.p1{
+  font-family: 'Josef Slab', cursive;
+  line-height: 51px;
+  background-color: rgba(215, 110, 110, 0.5);
+}
+
+.p2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 200%;
+  line-height: 51px;
+  background-color: #c4c4f8;
+}
+p {
+  text-align: justify;
+}
+
+h1{
+  text-align: center;
+  color: rgba(29, 34, 49, 0.5);
+  background-color: white;
+}

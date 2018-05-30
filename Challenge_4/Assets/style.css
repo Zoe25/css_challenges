@@ -1,0 +1,44 @@
+.box1 , .box2 , .box3 , .box4{
+  border: 1px solid black;
+  float: left;
+  margin: 5px;
+  padding-left: 8px;
+  width: 200px;
+  height: 200px;
+}
+
+.box1{
+  background-color: blue;
+}
+
+.box2{
+  background-color: green;
+}
+
+.box3{
+  background-color: yellow;
+}
+
+.box4{
+  background-color: red;
+}
+
+div:hover{
+  background-color: white;
+}
+
+div:active{
+  background-color: orange;
+}
+
+.box3:hover{
+  box-shadow: 0px 15px 15px rgba(0,0,0,0.3);
+  transition: 0.15 all ease-in-out;
+  width: 600px;
+}
+
+.box4:hover{
+  box-shadow: 0px 15px 15px rgba(0,0,0,0.3);
+  transition: 0.3s all ease-in-out;
+  width: 50px;
+}
